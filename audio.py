@@ -30,6 +30,8 @@ from __future__ import division
 import re
 import os
 import sys
+import time
+
 
 from google.cloud import speech
 from google.cloud.speech import enums
@@ -38,8 +40,8 @@ import pyaudio
 from six.moves import queue
 
 
-
-credential_path= r"C:\Users\Navya Shenoy\Desktop\sih.json" 
+LIST=[]
+credential_path= r"C:\Users\Navya Shenoy\Desktop\SIHH\sih.json" 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 
@@ -71,6 +73,7 @@ class MicrophoneStream(object):
             # overflow while the calling thread makes network requests, etc.
             stream_callback=self._fill_buffer,
         )
+   
 
         self.closed = False
 
@@ -139,6 +142,7 @@ def listen_print_loop(responses):
 
         # Display the transcription of the top alternative.
         transcript = result.alternatives[0].transcript
+       
 
         # Display interim results, but with a carriage return at the end of the
         # line, so subsequent lines will overwrite them.
@@ -150,16 +154,24 @@ def listen_print_loop(responses):
         if not result.is_final:
             sys.stdout.write(transcript + overwrite_chars + '\r')
             sys.stdout.flush()
+            
 
             num_chars_printed = len(transcript)
 
         else:
             print(transcript + overwrite_chars)
+           
+            ts=time.time()
+            LIST.append(ts)
+            print(LIST)
+
 
             # Exit recognition if any of the transcribed phrases could be
             # one of our keywords.
             if re.search(r'\b(exit|quit)\b', transcript, re.I):
                 print('Exiting..')
+                print('lAST TS=',ts)
+                print('FIRST TS=',LIST[0])
                 break
 
             num_chars_printed = 0
