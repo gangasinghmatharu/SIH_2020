@@ -39,7 +39,7 @@ from six.moves import queue
 
 
 
-credential_path= r"C:\Users\Navya Shenoy\Desktop\sih.json" 
+credential_path= r"sih.json" 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 
@@ -169,7 +169,8 @@ def main():
     # See http://g.co/cloud/speech/docs/languages
     # for a list of supported languages.
     language_code = 'en-US'  # a BCP-47 language tag
-
+    # language_code = 'mr-IN'
+    print("START")
     client = speech.SpeechClient()
     config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,

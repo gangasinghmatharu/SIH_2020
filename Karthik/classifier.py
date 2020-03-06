@@ -28,11 +28,24 @@ class training:
                 facenet.load_model(self.modeldir)
                 images_placeholder = tf.get_default_graph().get_tensor_by_name("input:0")
                 embeddings = tf.get_default_graph().get_tensor_by_name("embeddings:0")
+
+
+                # prelogits, _ = network.inference(image_batch, args.keep_probability, 
+                #     phase_train=phase_train_placeholder, bottleneck_layer_size=args.embedding_size,
+                #     weight_decay=args.weight_decay)
+                # embeddings = tf.nn.l2_normalize(prelogits, 1, 1e-10, name='embeddings')
+                # embeddings = tf.reshape(embeddings, [-1,3,args.embedding_size])
+
+                print("EMBEDDINGGGG")
+                print(embeddings)
+                print(embeddings.get_shape())
                 phase_train_placeholder = tf.get_default_graph().get_tensor_by_name("phase_train:0")
-                embedding_size = embeddings.get_shape()[1]
+                embedding_size = embeddings.get_shape()[1] 
+                print("EMBEDDDDING SIZE")
+                print(embedding_size)
 
                 print('Extracting features of images for model')
-                batch_size = 500
+                batch_size = 50
                 image_size = 160
                 nrof_images = len(path)
                 nrof_batches_per_epoch = int(math.ceil(1.0 * nrof_images / batch_size))
