@@ -11,8 +11,49 @@ import time
 import dlib
 import cv2
 
+# Play an alarm sound
+def soundAlarm(path):
+    pygame.mixer.music.load(path)
+    pygame.mixer.music.play()
+
+# Compute the distances between the two sets of vertical landmarks
+def eyeAspectRation(eye):
+    A = dist.euclidean(eye[1], eye[5])
+    B = dist.euclidean(eye[2], eye[4])
+    C = dist.euclidean(eye[0], eye[3])
+    # Compute the eye aspect ratio
+    ear = (A + B) / (2.0 * C)
+    return ear
+
+pygame.init()
+# Handle arguments
+ap = argparse.ArgumentParser()
+ap.add_argument("-s", "--shape-predictor", required=True,
+    help="path to facial landmark predictor")
+ap.add_argument("-a", "--alarm", type=str, default="",
+    help="path alarm .WAV file")
+ap.add_argument("-p", "--prototxt", required=True,
+    help="path to Caffe 'deploy' prototxt file")
+ap.add_argument("-m", "--model", required=True,
+    help="path to Caffe pre-trained model")
+ap.add_argument("-l", "--labels", required=True,
+    help="path to ImageNet labels (i.e., syn-sets)")
+args = vars(ap.parse_args())
 
 
+# Load labels' signification
+rows = open(args["labels"]).read().strip().split("\n")
+classes = [r[r.find(" ") + 1:].split(",")[0] for r in rows]
+
+# Load Caffe model
+print("[INFO] loading model...")
+net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
+fps = FPS().start()
+
+# Define the eye aspect ratio
+EYE_AR_THRESH = 0.3
+# Define the number of closed eyes' consecutive frames
+EYE_AR_CONSEC_FRAMES = 48
 
 # Initialize the frame counter and alarm on flags
 COUNTER = 0
@@ -22,6 +63,12 @@ ALARM_ON = False
 ALARM_ON_FACE = False
 ALARM_ON_PHONE = False
 
+# Load the facial landmark predictor
+print("[INFO] loading facial landmark predictor...")
+detector = dlib.get_frontal_face_detector()
+predictor = dlib.shape_predictor(args["shape_predictor"])
+(lStart, lEnd) = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
+(rStart, rEnd) = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
 
 # Start the video stream thread
 print("[INFO] starting video stream thread...")
@@ -104,13 +151,14 @@ while True:
         detections = net.forward()
 
         # Sort the indexes of the probabilities in descending probability order and grab the top-10 predictions
-        idxs = np.argsort(detections[0])[::-1][:7]
+        idxs = np.argsort(detections[0])[::-1][:5]
         found = False
         #  Loop over the top-10 predictions, looking for cellular phone
         for (i, idx) in enumerate(idxs):
                 if classes[idx] == "cellular telephone":
                     found = True
                     COUNTER_PHONE += 1
+                    print("phone detected")
 
         if not found:
             COUNTER_PHONE = 0
@@ -143,3 +191,7 @@ while True:
 # Cleanup
 cv2.destroyAllWindows()
 vs.stop()
+
+
+#To Run program
+#python phonedetect1.py -s assets\shape_predictor_68_face_landmarks.dat -a assets\alarm.wav -p assets\bvlc_googlenet.prototxt -m assets\bvlc_googlenet.caffemodel -l assets\synset_words.txt 
