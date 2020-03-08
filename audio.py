@@ -40,10 +40,8 @@ import pyaudio
 from six.moves import queue
 
 
-
-credential_path= r"sih.json" 
-LIST=[]
-# credential_path= r"C:\Users\Navya Shenoy\Desktop\SIHH\sih.json" 
+list=[]
+credential_path= r"C:\Users\Navya Shenoy\Desktop\SIHH\sih.json" 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 
@@ -161,21 +159,22 @@ def listen_print_loop(responses):
             num_chars_printed = len(transcript)
 
         else:
-            print(transcript + overwrite_chars)
+            print(response.results)
+            #print(transcript)
+            print("_____")
+            #print(overwrite_chars)
            
-            ts=time.time()
-            LIST.append(ts)
-            print(LIST)
+            
+            #print(list)
 
 
             # Exit recognition if any of the transcribed phrases could be
             # one of our keywords.
-            if re.search(r'\b(exit|quit)\b', transcript, re.I):
-                print('Exiting..')
-                print('lAST TS=',ts)
-                print('FIRST TS=',LIST[0])
+            if re.search(r'\b(exit|quit|fuck)\b', transcript, re.I):
+                #print('Exiting..')
+                #print('lAST TS=',ts)
+                #print('FIRST TS=',list[0])
                 break
-
             num_chars_printed = 0
 
 
@@ -183,8 +182,7 @@ def main():
     # See http://g.co/cloud/speech/docs/languages
     # for a list of supported languages.
     language_code = 'en-US'  # a BCP-47 language tag
-    # language_code = 'mr-IN'
-    print("START")
+
     client = speech.SpeechClient()
     config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
@@ -196,13 +194,23 @@ def main():
 
     with MicrophoneStream(RATE, CHUNK) as stream:
         audio_generator = stream.generator()
+        ts=time.time()
+        list.append(ts)
+        print(list)
+        
         requests = (types.StreamingRecognizeRequest(audio_content=content)
                     for content in audio_generator)
 
         responses = client.streaming_recognize(streaming_config, requests)
 
         # Now, put the transcription responses to use.
-        listen_print_loop(responses)
+        
+        try: 
+            listen_print_loop(responses)
+        except Exception:
+            print("Excption handle : Exceeded maximum allowed stream duration ")
+            main()
+        
 
 
 if __name__ == '__main__':
