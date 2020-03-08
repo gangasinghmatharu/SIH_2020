@@ -28,14 +28,6 @@ class training:
                 facenet.load_model(self.modeldir)
                 images_placeholder = tf.get_default_graph().get_tensor_by_name("input:0")
                 embeddings = tf.get_default_graph().get_tensor_by_name("embeddings:0")
-
-
-                # prelogits, _ = network.inference(image_batch, args.keep_probability, 
-                #     phase_train=phase_train_placeholder, bottleneck_layer_size=args.embedding_size,
-                #     weight_decay=args.weight_decay)
-                # embeddings = tf.nn.l2_normalize(prelogits, 1, 1e-10, name='embeddings')
-                # embeddings = tf.reshape(embeddings, [-1,3,args.embedding_size])
-
                 print("EMBEDDINGGGG")
                 print(embeddings)
                 print(embeddings.get_shape())
