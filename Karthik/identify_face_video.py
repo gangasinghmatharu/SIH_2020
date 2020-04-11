@@ -20,7 +20,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 modeldir = './facenet/model/20170511-185253.pb'
 classifier_filename = './facenet/class/classifier.pkl'
-npy='./npy'
+npy='./facenet/npy'
 train_img="./data/train_img"
 count = 0
 ear=0.3
