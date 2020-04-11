@@ -6,8 +6,8 @@ from skimage.transform import resize
 from scipy import misc
 import cv2
 import numpy as np
-import facenet
-import detect_face
+from functions import facenet
+from functions import detect_face
 import os
 import time
 import pickle
@@ -18,10 +18,10 @@ tf.disable_v2_behavior()
 
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
-modeldir = './model/20170511-185253.pb'
-classifier_filename = './class/classifier.pkl'
+modeldir = './facenet/model/20170511-185253.pb'
+classifier_filename = './facenet/class/classifier.pkl'
 npy='./npy'
-train_img="./train_img"
+train_img="./data/train_img"
 count = 0
 ear=0.3
 eye_thr=0

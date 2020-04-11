@@ -5,9 +5,9 @@ import numpy as np
 import cv2
 import os
 import time
-from preprocess import preprocesses
+from functions.preprocess import preprocesses
 import sys
-from classifier import training
+from functions.classifier import training
 from numba import cuda
 
 cuda.current_context().reset()
@@ -18,13 +18,13 @@ device.reset()
 number_of_samples = 100
 cap = cv2.VideoCapture(0)
 student = input("Enter Your Name : ")
-os.mkdir('train_img/'+student)
+os.mkdir('./data/train_img/'+student)
 i=0
-input_datadir = './train_img'
-output_datadir = './pre_img'
-datadir = './pre_img'
-modeldir = './model/20170511-185253.pb'
-classifier_filename = './class/classifier.pkl'
+input_datadir = './data/train_img'
+output_datadir = './data/pre_img'
+datadir = './data/pre_img'
+modeldir = './facenet/model/20170511-185253.pb'
+classifier_filename = './facenet/class/classifier.pkl'
 
 # Record Images of New User And Store it In Entered Folder 
 while(True):
@@ -32,7 +32,7 @@ while(True):
     ret, frame = cap.read()
     cv2.imshow("Image",frame)
     img_uint8 = frame.astype(np.uint8)
-    if not cv2.imwrite('train_img/'+student+'/'+ str(i)+'.jpg', img_uint8):
+    if not cv2.imwrite('./data/train_img/'+student+'/'+ str(i)+'.jpg', img_uint8):
         print("ERROR")
     time.sleep(0.2)
     if i==number_of_samples: 

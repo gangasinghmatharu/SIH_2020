@@ -1,0 +1,200 @@
+./pre_img\CHava Vishwanathan\1.png 273 176 372 300
+./pre_img\CHava Vishwanathan\10.png 273 172 372 296
+./pre_img\CHava Vishwanathan\100.png 275 184 370 304
+./pre_img\CHava Vishwanathan\11.png 272 172 371 297
+./pre_img\CHava Vishwanathan\12.png 271 173 371 297
+./pre_img\CHava Vishwanathan\13.png 267 173 369 298
+./pre_img\CHava Vishwanathan\14.png 264 175 367 300
+./pre_img\CHava Vishwanathan\15.png 274 171 374 297
+./pre_img\CHava Vishwanathan\16.png 259 177 363 304
+./pre_img\CHava Vishwanathan\17.png 274 178 384 308
+./pre_img\CHava Vishwanathan\18.png 289 178 396 305
+./pre_img\CHava Vishwanathan\19.png 230 181 337 311
+./pre_img\CHava Vishwanathan\2.png 274 172 374 297
+./pre_img\CHava Vishwanathan\20.png 225 184 323 309
+./pre_img\CHava Vishwanathan\21.png 249 177 352 297
+./pre_img\CHava Vishwanathan\22.png 280 178 375 291
+./pre_img\CHava Vishwanathan\23.png 285 177 379 292
+./pre_img\CHava Vishwanathan\24.png 273 173 367 297
+./pre_img\CHava Vishwanathan\25.png 261 166 364 298
+./pre_img\CHava Vishwanathan\26.png 250 172 349 299
+./pre_img\CHava Vishwanathan\27.png 252 172 350 300
+./pre_img\CHava Vishwanathan\28.png 272 173 370 292
+./pre_img\CHava Vishwanathan\29.png 283 169 380 289
+./pre_img\CHava Vishwanathan\3.png 274 172 373 298
+./pre_img\CHava Vishwanathan\30.png 293 175 384 288
+./pre_img\CHava Vishwanathan\31.png 277 169 377 288
+./pre_img\CHava Vishwanathan\32.png 266 170 364 291
+./pre_img\CHava Vishwanathan\33.png 257 171 355 295
+./pre_img\CHava Vishwanathan\34.png 271 161 372 273
+./pre_img\CHava Vishwanathan\35.png 264 176 374 308
+./pre_img\CHava Vishwanathan\36.png 222 185 322 305
+./pre_img\CHava Vishwanathan\37.png 258 180 355 304
+./pre_img\CHava Vishwanathan\38.png 262 178 360 302
+./pre_img\CHava Vishwanathan\39.png 254 172 358 305
+./pre_img\CHava Vishwanathan\4.png 274 172 373 296
+./pre_img\CHava Vishwanathan\40.png 256 176 357 309
+./pre_img\CHava Vishwanathan\41.png 258 176 365 316
+./pre_img\CHava Vishwanathan\42.png 262 174 366 308
+./pre_img\CHava Vishwanathan\43.png 267 174 373 313
+./pre_img\CHava Vishwanathan\44.png 269 175 374 310
+./pre_img\CHava Vishwanathan\45.png 266 177 371 310
+./pre_img\CHava Vishwanathan\46.png 264 172 368 310
+./pre_img\CHava Vishwanathan\47.png 271 181 371 308
+./pre_img\CHava Vishwanathan\48.png 269 179 363 302
+./pre_img\CHava Vishwanathan\49.png 263 175 362 304
+./pre_img\CHava Vishwanathan\5.png 274 173 373 296
+./pre_img\CHava Vishwanathan\50.png 263 176 361 300
+./pre_img\CHava Vishwanathan\51.png 262 176 361 308
+./pre_img\CHava Vishwanathan\52.png 262 173 363 301
+./pre_img\CHava Vishwanathan\53.png 267 180 367 305
+./pre_img\CHava Vishwanathan\54.png 268 176 371 306
+./pre_img\CHava Vishwanathan\55.png 271 183 370 305
+./pre_img\CHava Vishwanathan\56.png 270 173 374 307
+./pre_img\CHava Vishwanathan\57.png 270 172 373 302
+./pre_img\CHava Vishwanathan\58.png 271 172 372 301
+./pre_img\CHava Vishwanathan\59.png 271 174 370 298
+./pre_img\CHava Vishwanathan\6.png 273 173 371 297
+./pre_img\CHava Vishwanathan\60.png 271 175 371 301
+./pre_img\CHava Vishwanathan\61.png 268 171 369 303
+./pre_img\CHava Vishwanathan\62.png 267 173 368 303
+./pre_img\CHava Vishwanathan\63.png 274 194 361 300
+./pre_img\CHava Vishwanathan\64.png 272 197 354 301
+./pre_img\CHava Vishwanathan\65.png 279 209 358 307
+./pre_img\CHava Vishwanathan\66.png 286 204 364 303
+./pre_img\CHava Vishwanathan\67.png 286 208 366 312
+./pre_img\CHava Vishwanathan\68.png 288 196 370 298
+./pre_img\CHava Vishwanathan\69.png 281 211 360 314
+./pre_img\CHava Vishwanathan\7.png 274 174 372 298
+./pre_img\CHava Vishwanathan\70.png 283 201 363 304
+./pre_img\CHava Vishwanathan\71.png 276 204 360 310
+./pre_img\CHava Vishwanathan\72.png 290 196 379 309
+./pre_img\CHava Vishwanathan\73.png 303 194 395 311
+./pre_img\CHava Vishwanathan\74.png 308 204 399 320
+./pre_img\CHava Vishwanathan\75.png
+./pre_img\CHava Vishwanathan\76.png
+./pre_img\CHava Vishwanathan\77.png
+./pre_img\CHava Vishwanathan\78.png
+./pre_img\CHava Vishwanathan\79.png 296 236 364 323
+./pre_img\CHava Vishwanathan\8.png 274 172 372 297
+./pre_img\CHava Vishwanathan\80.png 255 236 352 344
+./pre_img\CHava Vishwanathan\81.png 247 248 359 372
+./pre_img\CHava Vishwanathan\82.png 248 214 358 347
+./pre_img\CHava Vishwanathan\83.png 301 190 382 313
+./pre_img\CHava Vishwanathan\84.png 285 206 366 313
+./pre_img\CHava Vishwanathan\85.png 268 222 352 330
+./pre_img\CHava Vishwanathan\86.png 282 226 362 327
+./pre_img\CHava Vishwanathan\87.png 292 220 370 316
+./pre_img\CHava Vishwanathan\88.png 302 213 383 307
+./pre_img\CHava Vishwanathan\89.png 311 207 395 309
+./pre_img\CHava Vishwanathan\9.png 273 172 373 297
+./pre_img\CHava Vishwanathan\90.png 315 200 402 305
+./pre_img\CHava Vishwanathan\91.png 312 198 401 306
+./pre_img\CHava Vishwanathan\92.png 311 192 404 310
+./pre_img\CHava Vishwanathan\93.png 314 191 403 304
+./pre_img\CHava Vishwanathan\94.png 309 190 400 303
+./pre_img\CHava Vishwanathan\95.png 292 177 392 305
+./pre_img\CHava Vishwanathan\96.png 275 173 381 306
+./pre_img\CHava Vishwanathan\97.png 274 183 376 309
+./pre_img\CHava Vishwanathan\98.png 273 187 370 305
+./pre_img\CHava Vishwanathan\99.png 273 181 370 301
+./pre_img\Karthikraj\1.png 265 185 376 327
+./pre_img\Karthikraj\10.png 227 128 346 280
+./pre_img\Karthikraj\100.png 253 150 356 287
+./pre_img\Karthikraj\11.png 242 125 359 278
+./pre_img\Karthikraj\12.png 256 128 374 283
+./pre_img\Karthikraj\13.png 261 128 379 286
+./pre_img\Karthikraj\14.png 270 131 389 289
+./pre_img\Karthikraj\15.png 278 134 394 283
+./pre_img\Karthikraj\16.png 274 124 394 286
+./pre_img\Karthikraj\17.png 272 121 394 288
+./pre_img\Karthikraj\18.png 272 124 393 286
+./pre_img\Karthikraj\19.png 272 126 389 288
+./pre_img\Karthikraj\2.png 267 170 381 318
+./pre_img\Karthikraj\20.png 271 125 390 285
+./pre_img\Karthikraj\21.png 270 125 390 287
+./pre_img\Karthikraj\22.png 274 125 395 286
+./pre_img\Karthikraj\23.png 267 121 392 287
+./pre_img\Karthikraj\24.png 260 124 380 279
+./pre_img\Karthikraj\25.png 245 119 362 271
+./pre_img\Karthikraj\26.png 246 119 361 267
+./pre_img\Karthikraj\27.png 248 116 363 267
+./pre_img\Karthikraj\28.png 251 116 367 268
+./pre_img\Karthikraj\29.png 259 122 372 265
+./pre_img\Karthikraj\3.png 277 164 389 314
+./pre_img\Karthikraj\30.png 245 118 363 269
+./pre_img\Karthikraj\31.png 245 112 361 263
+./pre_img\Karthikraj\32.png 243 119 356 271
+./pre_img\Karthikraj\33.png 249 110 364 260
+./pre_img\Karthikraj\34.png 259 112 378 264
+./pre_img\Karthikraj\35.png 272 119 391 279
+./pre_img\Karthikraj\36.png 274 125 394 284
+./pre_img\Karthikraj\37.png 265 120 391 289
+./pre_img\Karthikraj\38.png 260 120 384 287
+./pre_img\Karthikraj\39.png 249 119 375 288
+./pre_img\Karthikraj\4.png 270 142 385 294
+./pre_img\Karthikraj\40.png 250 128 376 286
+./pre_img\Karthikraj\41.png 280 129 403 291
+./pre_img\Karthikraj\42.png 288 128 414 295
+./pre_img\Karthikraj\43.png 283 138 406 302
+./pre_img\Karthikraj\44.png 270 128 393 294
+./pre_img\Karthikraj\45.png 256 123 378 277
+./pre_img\Karthikraj\46.png 242 120 364 273
+./pre_img\Karthikraj\47.png 238 121 363 277
+./pre_img\Karthikraj\48.png 245 132 363 274
+./pre_img\Karthikraj\49.png 245 128 364 276
+./pre_img\Karthikraj\5.png 270 132 392 295
+./pre_img\Karthikraj\50.png 251 126 374 290
+./pre_img\Karthikraj\51.png 260 129 386 288
+./pre_img\Karthikraj\52.png 266 123 389 289
+./pre_img\Karthikraj\53.png 266 123 392 292
+./pre_img\Karthikraj\54.png 264 125 387 290
+./pre_img\Karthikraj\55.png 264 125 385 288
+./pre_img\Karthikraj\56.png 265 123 387 291
+./pre_img\Karthikraj\57.png 274 127 399 292
+./pre_img\Karthikraj\58.png 277 130 398 286
+./pre_img\Karthikraj\59.png 264 127 384 289
+./pre_img\Karthikraj\6.png 266 128 387 289
+./pre_img\Karthikraj\60.png 246 132 366 293
+./pre_img\Karthikraj\61.png 241 133 362 295
+./pre_img\Karthikraj\62.png 239 129 361 292
+./pre_img\Karthikraj\63.png 238 132 359 292
+./pre_img\Karthikraj\64.png 247 135 363 280
+./pre_img\Karthikraj\65.png 260 121 373 272
+./pre_img\Karthikraj\66.png 267 129 375 263
+./pre_img\Karthikraj\67.png 262 118 371 261
+./pre_img\Karthikraj\68.png 269 143 369 271
+./pre_img\Karthikraj\69.png 272 121 381 264
+./pre_img\Karthikraj\7.png 249 127 369 283
+./pre_img\Karthikraj\70.png 267 133 374 270
+./pre_img\Karthikraj\71.png 278 131 384 267
+./pre_img\Karthikraj\72.png 279 99 395 249
+./pre_img\Karthikraj\73.png 276 107 390 256
+./pre_img\Karthikraj\74.png 281 154 385 287
+./pre_img\Karthikraj\75.png 270 158 374 297
+./pre_img\Karthikraj\76.png 245 172 351 310
+./pre_img\Karthikraj\77.png 244 165 352 307
+./pre_img\Karthikraj\78.png 245 160 354 305
+./pre_img\Karthikraj\79.png 238 154 349 297
+./pre_img\Karthikraj\8.png 225 128 343 281
+./pre_img\Karthikraj\80.png 243 168 348 308
+./pre_img\Karthikraj\81.png 238 153 347 296
+./pre_img\Karthikraj\82.png 239 153 346 296
+./pre_img\Karthikraj\83.png 243 156 346 294
+./pre_img\Karthikraj\84.png 246 160 355 300
+./pre_img\Karthikraj\85.png 246 160 353 298
+./pre_img\Karthikraj\86.png 243 157 354 302
+./pre_img\Karthikraj\87.png 243 156 346 295
+./pre_img\Karthikraj\88.png 243 155 347 294
+./pre_img\Karthikraj\89.png 245 157 349 297
+./pre_img\Karthikraj\9.png 223 127 337 276
+./pre_img\Karthikraj\90.png 241 159 346 296
+./pre_img\Karthikraj\91.png 236 155 336 292
+./pre_img\Karthikraj\92.png 231 155 339 292
+./pre_img\Karthikraj\93.png 234 158 338 289
+./pre_img\Karthikraj\94.png 236 157 337 293
+./pre_img\Karthikraj\95.png 237 154 341 294
+./pre_img\Karthikraj\96.png 245 151 348 287
+./pre_img\Karthikraj\97.png 252 154 357 291
+./pre_img\Karthikraj\98.png 252 149 357 291
+./pre_img\Karthikraj\99.png 254 151 357 292
